@@ -8,6 +8,13 @@
     width: 400px;
     height: 400px;
 }
+.imagen img:hover{
+    cursor: crosshair;
+    border-radius: 30%;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
 
 
 header{
@@ -93,14 +100,15 @@ footer .fot{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
-    padding: 50px;
-    gap: 20px;
 }
 #contacto p{
     color: black;
-    font-size: 26px;
+    font-size: 30px;
     -webkit-text-stroke: 0.5px aqua;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 260px;
+
 }
 
 .paginas{
