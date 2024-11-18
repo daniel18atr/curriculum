@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-image: url(fondos/cir3.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    gap: 10px;
+    height: 500px;
+}
+
+.info{
+text-align: center;
+padding-top: 10px;
+}
+
+section{
+    background-image: url(fondos/foto4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+/*centro*/
+.centro {
+display: grid;
+grid-template-columns: 50% 50%;
+text-align: center;
+word-wrap: break-word;
+gap: 50px;
+padding: 100px;
+}
+body{
+    overflow-x: hidden;
+
+}
+h1{
+    font-size: 75px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+h2{
+    font-size:50px ;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h3{
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.info p{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 2);
+}
+footer{
+    background-image: url(fondos/morado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .fot{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color:black;
+    -webkit-text-stroke: 0.4px aqua;
+}
+
+#contacto{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+}
+#contacto p{
+    color: black;
+    font-size: 26px;
+    -webkit-text-stroke: 0.5px aqua;
+    font-weight: bold;
+}
+
+.paginas{
+    text-align: center;
+    padding: 5px;
+}
